@@ -56,7 +56,7 @@ body h1 {
 .inicio-container {
     display: block;
     background-image: -webkit-linear-gradient(top,
-            rgba(105, 105, 105, 0.562),
+            rgba(54, 54, 54, 0.562),
             rgba(22, 22, 22, 0.897)), url("images/bar.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -407,4 +407,5 @@ margin-left: 15px;
 
 .redes i{
     font-size: 30px;
+    margin-bottom: 20px;
 }
