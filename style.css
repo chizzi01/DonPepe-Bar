@@ -6,7 +6,6 @@ body {
     margin: 0;
     padding: 0;
     background-color: #161616;
-    scroll-margin-top:100px ;
 }
 
 ::-webkit-scrollbar {
@@ -98,6 +97,14 @@ body h1 {
     display: flex;
     margin: auto;
     padding-top: 150px;
+}
+
+#menu{
+    scroll-margin-top:100px ;
+}
+
+#sucursales{
+    scroll-margin-top:100px ;
 }
 
 .menu-container h1 {
@@ -370,6 +377,7 @@ background-repeat: no-repeat;
     font-weight: bold;
     text-shadow: #000000 0px 2px 5px;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 .telefono{
