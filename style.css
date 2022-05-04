@@ -440,6 +440,18 @@ margin-left: 15px;
     border-radius: 10px;
 }
 
+
+@keyframes myAnim {
+	0% {
+		transform: translateY(0);
+	}
+
+	100% {
+		transform: translateY(10px);
+	}
+}
+
+
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
@@ -463,6 +475,8 @@ margin-left: 15px;
 
     .navbar-links ul li {
         text-align: center;
+        line-height: 40px;
+        margin-right: 30px;
     }
 
     .navbar-links ul li a {
@@ -471,5 +485,13 @@ margin-left: 15px;
 
     .navbar-links.active {
         display: flex;
+        animation: myAnim 1s ease 0s 1 normal forwards;
+
+    }
+
+    .navbarHeight{
+        height: 300px;
     }
 }
+
+
