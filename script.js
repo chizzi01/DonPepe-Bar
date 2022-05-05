@@ -8,11 +8,7 @@ toggleButton.addEventListener('click', () => {
     
 });
 
-
-// $(document).ready(function(){
-//     $("toggleButton").click(function(){
-//       $("navbar").animate({
-//         height: 'toggle'
-//       });
-//     });
-//   });
+navbarLinks.addEventListener('click', () => {
+document.getElementsByClassName('navbar-links')[0].classList.remove('active');
+document.getElementsByClassName('navbar')[0].classList.remove('navbarHeight');
+});

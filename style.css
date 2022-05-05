@@ -1,6 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
 
 body {
     margin: 0;
@@ -321,6 +318,7 @@ body h1 {
 
 .maps {
     display: flex;
+    flex-flow: row wrap;
     margin-right: 50px;
     justify-content: space-around;
 }
@@ -451,6 +449,17 @@ margin-left: 15px;
 	}
 }
 
+@keyframes navAnimation {
+	0% {
+		height:100px ;
+	}
+
+	100% {
+		height:300px ;
+	}
+}
+
+
 
 @media (max-width: 800px) {
     .navbar {
@@ -490,7 +499,19 @@ margin-left: 15px;
     }
 
     .navbarHeight{
-        height: 300px;
+        animation: navAnimation .5s ease 0s 1 normal forwards;
+    }
+
+    .inicio-container h1{
+        font-size: large;
+    }
+
+    .hamburguesas-container{
+        align-items: center;
+    }
+
+    .hamburguesas-container .descripcion{
+        font-size: 15px;
     }
 }
 
