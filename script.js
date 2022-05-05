@@ -5,14 +5,14 @@ const navbar = document.getElementsByClassName('navbar')[0];
 toggleButton.addEventListener('click', () => {
     navbarLinks.classList.toggle('active');
     navbar.classList.toggle('navbarHeight');
-
     
 });
 
-$(document).ready(function(){
-    $("toggleButton").click(function(){
-      $("navbar").animate({
-        height: 'toggle'
-      });
-    });
-  });
+
+// $(document).ready(function(){
+//     $("toggleButton").click(function(){
+//       $("navbar").animate({
+//         height: 'toggle'
+//       });
+//     });
+//   });
