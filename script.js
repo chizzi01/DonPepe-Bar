@@ -9,6 +9,6 @@ toggleButton.addEventListener('click', () => {
 });
 
 navbarLinks.addEventListener('click', () => {
-document.getElementsByClassName('navbar-links')[0].classList.remove('active');
-document.getElementsByClassName('navbar')[0].classList.remove('navbarHeight');
+    navbarLinks.classList.remove('active');
+    navbar.classList.remove('navbarHeight');
 });

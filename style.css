@@ -463,6 +463,20 @@ margin-left: 15px;
 }
 
 
+@keyframes list-show {
+    from {
+        visibility: hidden;
+        opacity: 0;
+        transform: translateX(20%);
+    }
+    to {
+        visibility: visible;
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
 
 @media (max-width: 800px) {
     .navbar {
@@ -502,7 +516,7 @@ margin-left: 15px;
     }
 
     .navbarHeight{
-        animation: navAnimation .5s ease 0s 1 normal forwards;
+        animation: navAnimation .2s ease 0s 1 normal forwards;
     }
 
     .inicio-container h1{
