@@ -94,7 +94,7 @@ body h1 {
 }
 
 .bigote {
-    width: 150px;
+    width: 300px;
     display: flex;
     margin: auto;
     padding-top: 150px;
@@ -536,6 +536,13 @@ margin-left: 15px;
 
     .hamburguesas-container .descripcion{
         font-size: 15px;
+    }
+
+    .bigote {
+        width: 150px;
+        display: flex;
+        margin: auto;
+        padding-top: 150px;
     }
 }
 
