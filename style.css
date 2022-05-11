@@ -547,3 +547,12 @@ margin-left: 15px;
 }
 
 
+@media(min-width:1000px){
+    .bigote {
+        width: 150px;
+        display: flex;
+        margin: auto;
+        padding-top: 150px;
+    }
+
+}
