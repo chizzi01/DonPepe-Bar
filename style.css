@@ -547,7 +547,7 @@ margin-left: 15px;
 }
 
 
-@media(min-width:1000px){
+@media screen and(min-width:1000px){
     .bigote {
         width: 150px;
         display: flex;
