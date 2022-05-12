@@ -556,3 +556,10 @@ margin-left: 15px;
     }
 
 }
+
+@media screen and(max-width:1240px){
+.hamburguesas-container {
+    display: flex;
+    flex-flow: column nowrap;
+	}
+}
