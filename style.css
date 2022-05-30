@@ -364,10 +364,17 @@ font-family: 'Permanent Marker', cursive;
 }
 
 .formulario-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 40%;
+    margin: auto;
 }
+
+form{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 100%;
+}
+
 
 input[type=text], input[type=email], textarea {
     width: 100%;
