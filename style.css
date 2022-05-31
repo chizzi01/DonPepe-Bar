@@ -378,12 +378,16 @@ form{
 }
 
 
-input[type=text], input[type=email],input[type=date] ,textarea {
+input[type=text], input[type=email],input[type=date],input[type=time],textarea {
     width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     resize: none;
     font-family: 'Montserrat', sans-serif;
+}
+
+input[type=text]:hover, input[type=email]:hover,input[type=date]:hover,input[type=time]:hover ,textarea:hover {
+box-shadow: #ebbf87 0px 0px 10px;
 }
 
 input[type=submit] {
