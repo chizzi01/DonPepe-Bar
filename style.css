@@ -365,6 +365,7 @@ font-family: 'Permanent Marker', cursive;
 }
 
 .formulario-container{
+	display:block;
     width: 40%;
     margin: auto;
     background-color: #000;
