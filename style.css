@@ -525,7 +525,7 @@ margin-left: 15px;
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 1240px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
@@ -588,17 +588,6 @@ margin-left: 15px;
         margin: auto;
         padding-top: 150px;
     }
-}
-
-
-@media screen and(min-width:1000px){
-    .bigote {
-        width: 150px;
-        display: flex;
-        margin: auto;
-        padding-top: 150px;
-    }
-
 }
 
 @media screen and(max-width:1240px){
