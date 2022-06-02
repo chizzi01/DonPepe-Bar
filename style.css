@@ -589,6 +589,10 @@ margin-left: 15px;
         margin: auto;
         padding-top: 150px;
     }
+	
+	.formulario-container{
+	width: 100%;
+	}
 }
 
 @media screen and(max-width:1240px){
